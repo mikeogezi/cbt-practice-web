@@ -1,0 +1,34 @@
+.row
+    .col.s12
+        .card
+            .card-content
+              span.card-title#report_message_heading Well done
+              p#report_message_body You have successfully completed the test. See your report below.
+            .card-action
+                table
+                        tbody
+                            tr
+                                td.key Questions Answered
+                                td.value#answered -
+                            tr
+                                td.key Correct Answers
+                                td.value#correct_answers -
+                            tr
+                                td.key Total Questions
+                                td.value#total_questions -
+                            tr
+                                td.key SCORE
+                                td.value#score -
+                            tr
+                                td.key GRADE
+                                td.value#grade -
+                button.btn-large.waves-effect.waves-dark.blue#correction Correction
+                    i.material-icons.right send
+
+.row
+    .col.s6
+        a.btn-large.waves-effect.waves-dark.blue#new_test(href='quiz') New Test
+            i.material-icons.right send
+    .col.s6
+        a.btn-large.waves-effect.waves-dark.blue#logout(href='logout') Logout
+            i.material-icons.right send

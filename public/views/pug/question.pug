@@ -1,0 +1,33 @@
+.row
+    .col.s12
+        .card
+            .card-content
+              p#question_number -
+              span.card-title#question_text -
+            .card-action
+              p
+                input(type='checkbox', id='option_1')
+                label(for='option_1') -
+              p
+                input(type='checkbox', id='option_2')
+                label(for='option_2') -
+              p
+                input(type='checkbox', id='option_3')
+                label(for='option_3') -
+              p
+                input(type='checkbox', id='option_4')
+                label(for='option_4') -
+              p
+                input(type='checkbox', id='option_5')
+                label(for='option_5') -
+
+.row
+    .col.s6
+        button.btn-large.waves-effect.waves-dark.blue#previous Previous
+            i.material-icons.right send
+    .col.s6
+        button.btn-large.waves-effect.waves-dark.blue#next Next
+            i.material-icons.right send
+    .col.s6
+        button.btn-large.waves-effect.waves-dark.blue#finish(style='display: none;') Finish
+            i.material-icons.right send

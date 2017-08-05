@@ -1,0 +1,7 @@
+{
+    "name": "Quiz Website",
+    "description": "Quiz Website",
+    "repository": "https://github.com/okibeogezi/quiz_site",
+    "keywords": ["Unijos", "Nodejs"],
+    "image": "heroku/nodejs"
+}

@@ -1,0 +1,555 @@
+{
+    "questions" : [
+        {
+           "text":  "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        }
+        ,
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+           "text": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Abstraction",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        }
+    ]
+}
