@@ -215,7 +215,7 @@ function generateOptions (question) {
             options += '<p><input type="checkbox" checked="checked" id="option_' + (++opt_id) + '"/><label for="option_' + opt_id + '">' + question.options[i] + '</label></p>'
             continue;
         }
-        options += '<p><input type="checkbox" id="option_' + (++opt_id) + '"/><label for="option_' + opt_id + '">' + question.options[i] + '</label></p>'
+        options += '<p><input disabled="disabled" type="checkbox" id="option_' + (++opt_id) + '"/><label for="option_' + opt_id + '">' + question.options[i] + '</label></p>'
     }
     return options
 }
@@ -243,6 +243,9 @@ function renderCorrectionPage () {
     for (var i in questions) {
         $('#all_questions').append(generateCard(i))
     }
+    $('#correction_section input[type=checkbox][checked=checked]').click(function (evt) {
+        this.checked = true
+    })
 }
 
 function renderQuestionPage () {
