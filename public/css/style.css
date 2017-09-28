@@ -13,6 +13,44 @@
     src: url(../fonts/Lato-Light.ttf);
 }
 
+footer p {
+    font-size: 18px;
+}
+
+span.card-title#question_text {
+    font-size: 20px;
+}
+
+.card .card-content {
+    padding-bottom: 5px;
+}
+
+.card {
+    word-wrap: break-word;
+}
+
+footer.transparent {
+    margin-top: -30px;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+form a.btn-large, .row .col.s6 button.btn-large {
+    width: 100%;
+}
+
+#question_select .btn {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    height: 30px;
+    width: 30px;
+    border-width: 10px;
+    border-color: red;
+    /* border-radius: 20%; */
+}
+
 #score {
     font-size: 25px;
 }
@@ -130,7 +168,7 @@ form {
     margin-top: 30px;
     border-radius: 5px;
     border-color: teal;
-    box-shadow: 0 0 7px #9eccd8;
+    box-shadow: 0 0 7px #808088;
     padding: 30px 15px 1px 15px;
     width: 85%;
     display: block;

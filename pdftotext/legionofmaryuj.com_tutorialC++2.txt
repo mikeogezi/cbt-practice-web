@@ -1,0 +1,559 @@
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+19:40
+
+1.
+Computer instructions are presented in a language known as ______
+ A. Igbo Language
+ B. Idoma Language
+ C. Hausa Language
+ D. Programming Language
+
+Answer: D
+
+2.
+C++ is an example of ______
+ A. 1GL
+ B. 2GL
+ C. 3GL
+ D. 4GL
+
+Answer: C
+
+3.
+Which of the languages are most suitable for programming a robot?
+ A. 1GL
+ B. 5GL
+ C. 4GL
+ D. 2GL
+
+Answer: B
+
+4.
+A smart phone can act as a digital camera, a computer, a radio etc. What feature of OOP in C++ does the above scenario depicts?
+ A. Class
+ B. Polymorphism
+ C. Encapsulation
+ D. Inheritance
+
+Answer: B
+
+5.
+Which of OOP and Structured Programming existed earlier?
+ A. OOP
+ B. Structured Programming
+Answer: B
+http://legionofmaryuj.com/tutorial.php
+
+1/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+ C. None of the Above
+ D. All of the Above
+
+19:40
+
+6.
+When data is categorized in a programming language, the language is said to be _________
+ A. Structured
+ B. Analytical
+ C. Typed
+ D. Untyped
+
+Answer: C
+
+7.
+Data in C++ falls into how many basic or simple categories?
+ A. 2
+ B. 3
+ C. 4
+ D. 5
+
+Answer: C
+
+8.
+The followings are examples of Integers in C++ except
+ A. 10E­5
+ B. 0x56
+ C. 056
+ D. 49
+
+Answer: A
+
+9.
+Floating point literals are real numbers such as ________
+ A. 10E­5
+ B. 0x56
+ C. 056
+ D. 49
+
+Answer: A
+
+10.
+\f represents __________
+ A. Back Space
+ B. Back Slash
+http://legionofmaryuj.com/tutorial.php
+
+2/11
+
+11/12/2016
+
+ C. Form feed
+ D. Feed Form
+
+legionofmaryuj.com/tutorial.php
+
+Answer: C
+
+19:40
+
+11. Use the statement below to answer question 11 to 13
+Const float normal_body_temperature = 37.5;
+ A. 37.5 is a literal constant
+ B. 37.5 is a literal variable
+ C. 37.5 is a variable
+ D. 37.5 is just a number
+
+Answer: A
+
+12.
+Float is the _________
+ A. Temperature
+ B. Humidity
+ C. Data type
+ D. Exponential Value
+
+Answer: C
+
+13.
+Normal_body_temperature is the _________
+ A. Identifier
+ B. Unifier
+ C. Modifier
+ D. Patient Temperature
+
+Answer: A
+
+14. What is the result of the following expression
+(8%2)*178
+ A. 0
+ B. 1
+ C. 16
+ D. 178
+
+Answer: A
+
+15. What is the result of the following expression
+3 % 15
+ A. 1
+http://legionofmaryuj.com/tutorial.php
+
+3/11
+
+11/12/2016
+
+ B. 2
+ C. 3
+ D. 5
+
+legionofmaryuj.com/tutorial.php
+
+Answer: C
+
+19:40
+
+16. What is the result of the following expression
+100000 % 1000000
+ A. 1000000
+ B. 10
+ C. 100000
+ D. 1
+
+Answer: C
+
+17. What is the result of the following expression
+1 % 10
+ A. 0.1
+ B. 1.0
+ C. 1
+ D. 10
+
+Answer: C
+
+18. What is the result of the following expression
+10 % 1
+ A. 0.1
+ B. 0
+ C. 1
+ D. 1.0
+
+Answer: B
+
+19. What is the result of the following expression
+True and false
+ A. True
+ B. False
+ C. Na lie
+ D. Na true
+
+Answer: B
+
+20. What is the result of the following expression
+True and true
+ A. Over true
+http://legionofmaryuj.com/tutorial.php
+
+4/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+ B. True
+ C. False
+ D. None of the above
+
+Answer: B
+
+19:40
+
+21. What is the result of the following expression
+False and true
+ A. False
+ B. Truefalse
+ C. True
+ D. None of the above
+
+Answer: A
+
+22. What is the result of the following expression
+True || false
+ A. True
+ B. False
+ C. Truefalse
+ D. None of the above
+
+Answer: A
+
+23. What is the result of the following expression
+False && false
+ A. True
+ B. Truefalse
+ C. Falsetrue
+ D. False
+
+Answer: D
+
+24.
+True || true
+ A. True
+ B. Truetrue
+ C. Falsetrue
+ D. Very true
+
+Answer: A
+
+25. What is the result of the following expression
+!(2>3 && (2*897­56) > (54*7/2))
+ A. False
+http://legionofmaryuj.com/tutorial.php
+
+5/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+ B. Falsetrue
+ C. True
+ D. None of the above
+
+Answer: C
+
+19:40
+
+26. What is the result of the following expression
+7==5+2 ? 4 : 3
+ A. 7
+ B. 2
+ C. 3
+ D. 4
+
+Answer: D
+
+27. Which operator has the following format?
+Condition? result1 : result2
+ A. Addition++
+ B. Question Mark Operator
+ C. Conditional Binary Operator
+ D. Conditional Tenary Operator
+
+Answer: D
+
+28.
+What preprocessor directive is needed in other to use "ceil(x)" in a C++ program?
+ A. MathematicsFunction.p
+ B. Math.com
+ C. Math.h
+ D. Mathematics.p
+
+Answer: C
+
+29.
+The semicolon (;) indicates the___ of the statement.
+ A. Beginning
+ B. Middle
+ C. Comment
+ D. End
+
+Answer: D
+
+30. What is the set of characters ">>" called in C++
+Cin >> age;
+ A. Extraction Operator
+http://legionofmaryuj.com/tutorial.php
+
+6/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+ B. Insertion Operator
+ C. Excising Operator 
+ D. Double greater than 
+
+Answer: A
+
+19:40
+
+31. What is the set of characters "<<" called in C++
+Cout << 5;
+ A. Extraction Operator
+ B. Insertion Operator
+ C. Excising Operator 
+ D. Double less than 
+
+Answer: B
+
+32.
+Cin extraction stops reading as soon as it finds any ______ character
+ A. Full stop
+ B. Back space
+ C. Back slash
+ D. Blank space 
+
+Answer: D
+
+33.
+The function ________ returns a single character from a standard input device
+ A. Getch()
+ B. Putch()
+ C. Getche()
+ D. None of the above
+
+Answer: A
+
+34.
+#include<conio.h> is needed when using ________
+ A. Putch()
+ B. Getline()
+ C. Ceil()
+ D. Sqrt()
+
+Answer: A
+
+35.
+Which is the appropriate preprocessor directive for using formatted input and output commands?
+ A. Conio.h
+http://legionofmaryuj.com/tutorial.php
+
+7/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+ B. Stdio.h
+ C. Frmttd.h
+ D. Math.h
+
+Answer: B
+19:40
+
+36.
+________ consists of format_string and variable argument list.
+ A. Printf()
+ B. Scanf()
+ C. Showf()
+ D. Displayth.f
+
+Answer: A
+
+37. What are the output type for the format specifiers in question 37 to 43
+%d
+ A. Signed decimal integer
+ B. Floating point
+ C. Floating point with exponential notation
+ D. String
+
+Answer: A
+
+38.
+%f
+ A. Signed decimal integer
+ B. Floating point
+ C. Floating point with exponential notation
+ D. String
+
+Answer: B
+
+39.
+%e
+ A. Signed decimal integer
+ B. Floating point
+ C. Floating point with exponential notation
+ D. String
+
+Answer: C
+
+40.
+%s
+ A. Signed decimal integer
+http://legionofmaryuj.com/tutorial.php
+
+8/11
+
+11/12/2016
+
+ B. Floating point
+ C. Floating point with exponential notation
+ D. String
+
+legionofmaryuj.com/tutorial.php
+
+Answer: D
+
+19:40
+
+41.
+%o
+ A. Unsigned octal integer
+ B. Character
+ C. Unsigned hexadecimal integer
+ D. String
+
+Answer: A
+
+42.
+%x
+ A. Unsigned octal integer
+ B. Character
+ C. Unsigned hexadecimal integer
+ D. String
+
+Answer: C
+
+43.
+%c
+ A. Unsigned octal integer
+ B. Character
+ C. Unsigned hexadecimal integer
+ D. String
+
+Answer: B
+
+44. What will be output of the statement:
+Printf("% 8.2f % 8.2f % 8.2f \n", 1.6, 49.01, 1600.2);
+ A. _1.60 49.01_ _1600.2 
+ B. _ _ _ _1.60_ __49.01_ _1600.2 
+ C. _ _ _ 1.60_ _ _49.01_ _1600.2 
+ D. _ _ _ _1.60_ _ _49.01_ _1600.2 
+
+Answer: D
+
+45.
+The arguments in the argument list must begin with an _______.
+ A. Ampersand
+http://legionofmaryuj.com/tutorial.php
+
+9/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+ B. Inverted comma
+ C. Independent variable
+ D. Unsigned integer
+
+Answer: A
+
+19:40
+
+46.
+To use stream manipulators the header ____ must be included.
+ A. Iomanip
+ B. Conio.h
+ C. Stdio.h
+ D. Math.h
+
+Answer: A
+
+47.
+Cout<<hex<<20;
+ A. 12
+ B. 13
+ C. 14
+ D. Hex 20
+
+Answer: C
+
+48. What will be output of the statement:
+Cout<<pow(3,2);
+ A. 2
+ B. 3
+ C. 5
+ D. 9
+
+Answer: D
+
+49.
+Which of the following is not a kind of loop
+ A. Control
+ B. Counter Control
+ C. Sentinel 
+ D. Event
+
+Answer: A
+
+50.
+No increment (or change of test value) of loop parameters, may result in an _________
+ A. Undefined function
+http://legionofmaryuj.com/tutorial.php
+
+10/11
+
+11/12/2016
+
+ B. Steady loop
+ C. Infinite loop
+ D. Definite loop
+
+legionofmaryuj.com/tutorial.php
+
+Answer: C19:40
+
+  Submit Exam
+
+http://legionofmaryuj.com/tutorial.php
+
+11/11
+
+

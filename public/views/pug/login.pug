@@ -1,16 +1,17 @@
 html
   head
     title #{title}
-    link(rel='stylesheet', href='css/materialize.css')
-    link(rel='stylesheet', href='css/style.css')
+    link(rel='stylesheet', href='/css/materialize.css')
+    link(rel='stylesheet', href='/css/style.css')
     meta(charset='UTF-8', name='viewport', content='width=device-width, initial-scale=1')
-    script(type='text/javascript', src='js/jquery.js')
-    script(type='text/javascript', src='js/materialize.js')
-    script(type='text/javascript', src='js/app.js')
+    script(type='text/javascript', src='/js/jquery.js')
+    script(type='text/javascript', src='/js/materialize.js')
+    script(type='text/javascript', src='/js/app.js')
   body.form
+    include fab
     .container
       .row
-          form(action='/loginPost', method='get')
+          form(action='/loginPost/' + choice, method='get')
             .row
                 .input-field.col.s12
                     input#first-name(placeholder='Enter Your Pin', name='pin', type='text', class='validate')
@@ -18,5 +19,6 @@ html
 
             .row
                 .col.s12
-                    button.btn-large.waves-effect.waves-dark.blue(type='submit', value='submit') START TEST
+                    button.btn-large.waves-effect.waves-dark.blue(type='submit', value='submit') START EXAM
                         i.material-icons.right mode_edit
+      include ack

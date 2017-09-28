@@ -1,0 +1,566 @@
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+19:47
+
+1.
+________ is also known as the lvalue.
+ A. image value
+ B. colour value
+ C. data value
+ D. address value
+
+Answer: D
+
+2.
+_____ is also called the rvalue(real value)
+ A. integer value
+ B. colour value
+ C. data value
+ D. address value
+
+Answer: C
+
+3.
+_____ are used in C++ to access memory and to manipulate address.
+ A. variable
+ B. pointers
+ C. identifier
+ D. flash
+
+Answer: B
+
+4.
+in C++ If v is a named variable, then &v is its ______
+ A. data
+ B. value
+ C. address
+ D. color
+
+Answer: C
+
+5.
+which of the following is the syntax for declaring pointer variables.
+ A. datatype* variablename;
+ B. variablename* datatype ;
+Answer: A
+http://legionofmaryuj.com/tutorial.php
+
+1/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+ C. Data type Identifier
+ D. returntype identifier
+
+19:47
+
+6.
+____ is the inverse of &
+ A. /
+ B. ­
+ C. +
+ D. *
+
+Answer: D
+
+7.
+Which of the following is not needed in order to call by reference using pointers.
+ A. Declare a pointer in the function header
+ B. Declare receiving variable
+ C. Use the dereference pointer in the function body
+ D. Pass an address as an argument when the function is called.
+
+Answer: B
+
+8.
+________ functions calls itself as part of its definition.
+ A. Recursive
+ B. Main
+ C. Common
+ D. None of the above
+
+Answer: A
+
+9.
+Base and recursive parts are the two main parts of which function?
+ A. Main 
+ B. Return
+ C. Common
+ D. Recursive
+
+Answer: D
+
+10.
+Fibonacci Series,Greatest Common Divisor (G.C.D.) and Geometric Series can be programmed with the application of ________
+function
+ A. int Main
+http://legionofmaryuj.com/tutorial.php
+
+2/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+ B. anyhow
+ C. recursive
+ D. common
+
+Answer:
+C 19:47
+
+11.
+An array name is an address or a pointer value.
+ A. None of the options
+ B. False
+ C. True
+ D. Maybe
+
+Answer: C
+
+12.
+What is the separation of the essential qualities of an object from the details of how it works or is composed?
+ A. Subtraction
+ B. Addition
+ C. Extraction
+ D. Abstraction
+
+Answer: D
+
+13.
+_____ and ________ are used to define Abstract data types in C++.
+ A. pointers and variables
+ B. Structures and classes
+ C. identifiers and datatypes
+ D. images and colours
+
+Answer: B
+
+14.
+Structures does not allow the programmer to aggregate components into a single name.
+ A. True
+ B. False
+ C. Maybe
+ D. None of the above
+
+Answer: B
+
+15.
+_____ is used to access members of the structure types.
+ A. member access operator(.)
+http://legionofmaryuj.com/tutorial.php
+
+3/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+ B. outsider access operator(*)
+ C. referencer
+ D. modifier
+
+Answer: A
+
+19:47
+
+16.
+Member Selection (­>) Operator is used to access members of a structure if a pointer variable is assigned the address of a
+structure.
+ A. Why?
+ B. False
+ C. True
+ D. How?
+
+Answer:
+C
+
+17.
+_____ can hold both data and functions.
+ A. Structure
+ B. Class
+ C. Variable
+ D. Array
+
+Answer: B
+
+18.
+An Instance of a class is called a(n)_____.
+ A. Subject
+ B. Value
+ C. Object
+ D. Particles
+
+Answer: C
+
+19.
+private members are accessible from anywhere where the object is visible.
+ A. True
+ B. False
+ C. Maybe
+ D. Why?
+
+Answer: B
+
+20.
+Which of the following is not an access specifier?
+http://legionofmaryuj.com/tutorial.php
+
+4/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+ A. Private
+ B. Public
+ C. Social
+ D. Protected
+
+19:47
+
+Answer: C
+
+21.
+Data and functions are both members of the object.
+ A. False
+ B. True
+ C. Maybe
+ D. None of the above
+
+Answer: B
+
+22.
+A function that is used to give initial values to all attributes of a class is called a ______.
+ A. Menu
+ B. Submenu
+ C. Constructor
+ D. Builder
+
+Answer: C
+
+23.
+What kind of function has the same name as it Class?
+ A. Main
+ B. public
+ C. protected
+ D. constructor
+
+Answer: D
+
+24.
+Which of the following function should have a non­void return type.
+ A. Modifiers
+ B. Accessors
+ C. Modifiers and Accessors
+ D. None of the above
+
+Answer: B
+
+25.
+____ describes grouping related data and functions together as objects and defining an interface to those objects.
+http://legionofmaryuj.com/tutorial.php
+
+5/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+ A. Polymorphism
+ B. Encapsulation
+ C. Class
+ D. Inheritance
+
+19:47
+Answer: B
+
+26.
+______ involves allowing code to be reused between related types.
+ A. Polymorphism
+ B. Encapsulation
+ C. Class
+ D. Inheritance
+
+Answer: D
+
+27.
+In defining derived classes, we only need to specify what’s different about them from their base classes. This powerful technique
+is called _____.
+ A. Programming by difference
+ B. Programming with style
+ C. Programming by addition
+ D. Programming with Joy
+
+Answer:
+A
+
+28.
+_____ involves allowing a value to be one of several types, and determining at runtime which functions to call on it based on its
+type.
+ A. Polymorphism
+ B. Encapsulation
+ C. Class
+ D. Inheritance
+
+Answer:
+A
+
+29. What generation of programming language does the statements in questions 29 to 31 belong?
+studentName = FirstName + LastName;
+ A. 1GL
+ B. 2GL
+ C. 3GL
+ D. 4GL
+
+Answer: C
+
+30.
+http://legionofmaryuj.com/tutorial.php
+
+6/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+SELECT * FROM studentTb WHERE age = 13 and height > 4.0;
+
+19:47
+
+ A. 1GL
+ B. 2GL
+ C. 3GL
+ D. 4GL
+
+Answer: D
+
+31.
+SUB X, Y
+ A. 1GL
+ B. 2GL
+ C. 3GL
+ D. 4GL
+
+Answer: B
+
+32.
+Which of the following is not an Integer literal?
+ A. Decimal
+ B. Hexadecimal
+ C. short
+ D. Octal
+
+Answer: C
+
+33.
+What is the most appropriate data type for 'b'
+ A. String
+ B. Integer
+ C. Character
+ D. Boolean
+
+Answer: C
+
+34. The syntax below depicts _____
+Data_type identifier = data_value;
+ A. Initialization of array
+ B. Initialization of variables
+ C. Initialization of numbers
+ D. Initialization of pointer
+
+Answer: B
+
+35. What is the result of the following expression
+http://legionofmaryuj.com/tutorial.php
+
+7/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+3%3
+ A. 0
+ B. 1
+ C. 2
+ D. 3
+
+19:47
+Answer: A
+
+36. What is the result of the following expression
+4 + 3*(4%5)
+ A. 4
+ B. 12
+ C. 0
+ D. 16
+
+Answer: D
+
+37.
+string s = sin(0.0) == 0 ? "yes":"no";
+cout << s;
+ A. True
+ B. yes
+ C. False
+ D. no
+
+Answer: B
+
+38.
+string s = ((2*3)+82)%91 > 74 && (2*3)<4 ? "yes":"no";
+cout << s;
+ A. True
+ B. yes
+ C. False
+ D. no
+
+Answer: D
+
+39.
+getch, putch and getche are functions used for ______
+ A. String Input and Output
+ B. Character Input and Output
+ C. Integer printing
+ D. Getting values
+http://legionofmaryuj.com/tutorial.php
+
+Answer: B
+
+8/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+40. What is the effect of the bold portion of the samples in questions 40 to 42
+
+19:47
+
+%8.2f (using printf)
+ A. Value to be printed
+ B. Decimal places
+ C. White spaces
+ D. Data format
+
+Answer: C
+
+41.
+% 8.2f (using printf)
+ A. Value to be printed
+ B. Decimal places
+ C. White spaces
+ D. Data format
+
+Answer: B
+
+42.
+%8.2f (using printf)
+ A. Value to be printed
+ B. Decimal places
+ C. White spaces
+ D. float data format
+
+Answer: D
+
+43.
+cout<< 25 << " in hexadecimal is: " << hex << 25 << endl;
+ A. 11
+ B. 12
+ C. 17
+ D. 19
+
+Answer: D
+
+44.
+int a = ceil(24.7);
+cout<< hex<< a << endl;
+ A. 12
+ B. 13
+ C. 19
+ D. 29
+http://legionofmaryuj.com/tutorial.php
+
+Answer: C
+9/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+19:47
+
+45. What will be the output of the statements:
+cout<< setbase(16)<< 25 ;
+ A. 12
+ B. 19
+ C. 4
+ D. 29
+
+Answer: B
+
+46.
+cout<< setw (10) << 12345 <<endl;
+ A. 12345
+ B. 12345
+ C. None of the Above
+ D. Maybe
+
+Answer: A
+
+47.
+Th test expression of an if statement should evaluate to a ____ value.
+ A. Float
+ B. Integer
+ C. Boolean
+ D. String
+
+Answer: C
+
+48.
+what term best describes an If statement placed inside another if statement?
+ A. Nested If
+ B. Nurtured If
+ C. Steady If
+ D. Operative If
+
+Answer: A
+
+49.
+The switch default statement is equivalent to the ____ in if statement.
+ A. else
+ B. if else
+ C. Maybe
+ D. None of the above
+http://legionofmaryuj.com/tutorial.php
+
+Answer: A
+10/11
+
+11/12/2016
+
+legionofmaryuj.com/tutorial.php
+
+19:47
+
+50. COMPLETE THIS STATEMENT:
+MAY THE LORD GOD BE PRAISED FOREVER AND EVER _________.
+ A. No way
+ B. Why na
+ C. AMEN OOOOOOO!!!
+ D. For Where
+
+Answer: C
+
+  Submit Exam
+
+http://legionofmaryuj.com/tutorial.php
+
+11/11
+
+
