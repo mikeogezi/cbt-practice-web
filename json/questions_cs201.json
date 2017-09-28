@@ -1,0 +1,524 @@
+{
+    "questions": [
+        {
+           "text":  "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Bjourne Strousup",
+                "Alan Turing"
+            ],
+            "correct_answer": "Bjourne Strousup"
+        },
+        {
+           "text": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correct_answer": "Togetherness"
+        },
+        {
+            "text": "A sequence of instructions written to perform a specified task on a computer is called __________",
+            "options": [
+                "Software",
+                "Hardware",
+                "Gadget",
+                "Instructions"
+            ],
+            "correct_answer": "Software"
+        },
+        {
+            "text": "There are currently __________ generations of computer programming languages.",
+            "options": [
+                "Four",
+                "Five",
+                "Three",
+                "Six"
+            ],
+            "correct_answer": "Five"
+        },
+        {
+            "text": "1GL is synonymous to __________",
+            "options": [
+                "First General Language",
+                "1st Gathering in Lamingo",
+                "First Grand Language",
+                "First Generation Language"
+            ],
+            "correct_answer": "First Generation Language"
+        },
+        {
+            "text": "Fifth generation languages are currently being used for __________",
+            "options": [
+                "Databases",
+                "Interpreters",
+                "Neural Networks",
+                "Batteries"
+            ],
+            "correct_answer": "Neural Networks"
+        },
+        {
+            "text": "For this course the language of study is an example of __________ generation programming language.",
+            "options": [
+                "Third",
+                "Second",
+                "Fourth",
+                "First"
+            ],
+            "correct_answer": "Third"
+        },
+        {
+            "text": "__________ Programming models software in terms similar to real world objects.",
+            "options": [
+                "Hardware",
+                "Structured",
+                "Software",
+                "Object Oriented"
+            ],
+            "correct_answer": "Object Oriented"
+        },
+        {
+            "text": "Structured Programming existed before Object Oriented Programming.",
+            "options": [
+                "False",
+                "Maybe",
+                "True",
+                "None of the above"
+            ],
+            "correct_answer": "True"
+        },
+        {
+            "text": "Which of the following is a feature of Object Oriented Programming?",
+            "options": [
+                "Class",
+                "Inheritance",
+                "Polymorphism",
+                "All of the above"
+            ],
+            "correct_answer": "All of the above"
+        },
+        {
+            "text": "Which is not a control structure in structured programming?",
+            "options": [
+                "Processor",
+                "Repetition",
+                "Selection",
+                "Sequence"
+            ],
+            "correct_answer": "Processor"
+        },
+        {
+            "text": "Which of the program codes matches the second generation programming language?",
+            "options": [
+                "MUL X,Y",
+                "10000001101",
+                "A = SEC + GEN",
+                "SELECT * FROM student;"
+            ],
+            "correct_answer": "MUL X,Y"
+        },
+        {
+            "text": "Which of the program codes matches the first generation programming language?",
+            "options": [
+                "MUL X,Y",
+                "10000001101",
+                "A = SEC + GEN",
+                "SELECT * FROM student;"
+            ],
+            "correct_answer": "10000001101"
+        },
+        {
+            "text": "Which of the program codes matches the third generation programming language?",
+            "options": [
+                "MUL X,Y",
+                "10000001101",
+                "A = SEC + GEN",
+                "SELECT * FROM student;"
+            ],
+            "correct_answer": "A = SEC + GEN"
+        },
+        {
+            "text": "Which of the program codes matches the fourth generation programming language?",
+            "options": [
+                "MUL X,Y",
+                "10000001101",
+                "A = SEC + GEN",
+                "SELECT * FROM student;"
+            ],
+            "correct_answer": "SELECT * FROM student;"
+        },
+        {
+            "text": "SQL is an example of __________ generation language.",
+            "options": [
+                "First",
+                "Second",
+                "Third",
+                "Fourth"
+            ],
+            "correct_answer": "Fourth"
+        },
+        {
+            "text": "Structured programs can be written in terms of three types of control structures except__________",
+            "options": [
+                "Repetition",
+                "Sequence",
+                "Selection",
+                "Manipulation"
+            ],
+            "correct_answer": "Manipulation"
+        },
+        {
+            "text": "The __________ selection statement is used to execute one action when a condition is true or a different action when that condition is false.",
+            "options": [
+                "If",
+                "If else",
+                "Switch",
+                "For else"
+            ],
+            "correct_answer": "If else"
+        },
+        {
+            "text": "What additional features did C++ add to C?",
+            "options": [
+                "Structured Programming",
+                "Object Oriented Programming Disabilities",
+                "Plusplus",
+                "Object Oriented Programming Capabilities"
+            ],
+            "correct_answer": "Object Oriented Programming Capabilities"
+        },
+        {
+            "text": "What additional feature did C++ add to C?",
+            "options": [
+                "Standard Books",
+                "Standard cout",
+                "Standard Libraries",
+                "Loops"
+            ],
+            "correct_answer": "Standard Libraries"
+        },
+        {
+            "text": "What are the parts of a C++ program?",
+            "options": [
+                "First and Last parts",
+                "Structured and Unstructured parts",
+                "Directive and main program",
+                "Director and Personal Assistance"
+            ],
+            "correct_answer": "Directive and main program"
+        },
+        {
+            "text": "Which of the following are valid names for identifiers?",
+            "options": [
+                "Miles",
+                "3Musketeers",
+                "The space",
+                "Three%ofFifty"
+            ],
+            "correct_answer": "Miles"
+        },
+        {
+            "text": "Which of the following is an invalid identifier?",
+            "options": [
+                "Miles",
+                "Root_of_2",
+                "Root­of­2",
+                "Erase"
+            ],
+            "correct_answer": "Root­of­2"
+        },
+        {
+            "text": "Which of the following is an invalid identifier?",
+            "options": [
+                "The space",
+                "Nospace",
+                "Correct",
+                "Verycorrect"
+            ],
+            "correct_answer": "The space"
+        },
+        {
+            "text": "Which of the following is an invalid identifier?",
+            "options": [
+                "3Musketeers",
+                "Musketeers3",
+                "M3usketeers",
+                "_Musketeers"
+            ],
+            "correct_answer": "3Musketeers"
+        },
+        {
+            "text": "__________ control structure execute steps or statements in the order they appear.",
+            "options": [
+                "Selection",
+                "Sequence",
+                "Repetition",
+                "Manipulation"
+            ],
+            "correct_answer": "Sequence"
+        },
+        {
+            "text": "__________ is a one path choice selection statement.",
+            "options": [
+                "If",
+                "If else",
+                "Where else",
+                "Switch"
+            ],
+            "correct_answer": "If"
+        },
+        {
+            "text": "__________ is a multiple path choice selection statement.",
+            "options": [
+                "If",
+                "If else",
+                "Where else",
+                "Switch"
+            ],
+            "correct_answer": "Switch"
+        },
+        {
+            "text": "__________ selection statement involves more than one condition.",
+            "options": [
+                "If",
+                "If else",
+                "Where else",
+                "Switch"
+            ],
+            "correct_answer": "Switch"
+        },
+        {
+            "text": "C++ evolved from the __________ programming language.",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "text": "C programming language evolved from __________",
+            "options": [
+                "BCPL and B",
+                "BPPL and B",
+                "BCPL and BC",
+                "B"
+            ],
+            "correct_answer": "BCPL and B"
+        },
+        {
+            "text": "Complete this statement: C++ was developed by __________ in the __________ and Standardized in __________",
+            "options": [
+                "Bjarne Stroustrup in the 1980s and Standardized in 1998",
+                "Bjarne Stroustrup in the 1980s and Standardized in 1988",
+                "Bjarne Stroustrup in the 1970s and Standardized in 1998",
+                "James Stroustrup in the 1980s and Standardized in 1998"
+            ],
+            "correct_answer": "Bjarne Stroustrup in the 1980s and Standardized in 1998"
+        },
+        {
+            "text": "C++ Directives includes the following except __________.",
+            "options": [
+                "#include",
+                "#define",
+                "Comment",
+                "Statements"
+            ],
+            "correct_answer": "Statements"
+        },
+        {
+            "text": "Single line commenting is made by using __________.",
+            "options": [
+                "Single slash (/)",
+                "Slash and an asterisk (/*)",
+                "Asterisk and an slash (*/)",
+                "Double slash (//)"
+            ],
+            "correct_answer": "Double slash (//)"
+        },
+        {
+            "text": "Multiple lines commenting is made by using __________",
+            "options": [
+                "Single slash (/)",
+                "Triple slash (///)",
+                "Slashes and an asterisks (/* */)",
+                "Double slash (//)"
+            ],
+            "correct_answer": "Slashes and an asterisks (/* */)"
+        },
+        {
+            "text": "A __________ represents the set of values that a variable may accept or assume during program execution.",
+            "options": [
+                "Literal",
+                "Comment",
+                "Variable",
+                "Data type"
+            ],
+            "correct_answer": "Data type"
+        },
+        {
+            "text": "Which of the following is not an importance of datatypes?",
+            "options": [
+                "Indicate the permissible operations for a variable",
+                "Indicate the amount of memory allocated to it",
+                "Indicate the range of values a variable can take",
+                "Indicate the number of variables to declare"
+            ],
+            "correct_answer": "Indicate the number of variables to declare"
+        },
+        {
+            "text": "C++ is a __________ language.",
+            "options": [
+                "Untyped",
+                "Typed",
+                "Strict",
+                "Hard"
+            ],
+            "correct_answer": "Typed"
+        },
+        {
+            "text": "Data in C++ either falls into or is made up of the following basic or simple categories excepts __________",
+            "options": [
+                "Floating Point Numbers",
+                "Integers",
+                "String",
+                "Boolean"
+            ],
+            "correct_answer": "String"
+        },
+        {
+            "text": "Which of the following is not a kind of integers?",
+            "options": [
+                "Int",
+                "Double",
+                "Long",
+                "Short"
+            ],
+            "correct_answer": "Double"
+        },
+        {
+            "text": "Which of the following is not a type of floating point numbers.",
+            "options": [
+                "Long double",
+                "Long",
+                "Double",
+                "Float"
+            ],
+            "correct_answer": "Long"
+        },
+        {
+            "text": "Which of the following is not an integer literal?",
+            "options": [
+                "Decimal",
+                "Octal",
+                "Hexadecimal",
+                "Exponential"
+            ],
+            "correct_answer": "Exponential"
+        },
+        {
+            "text": "String literals must be enclosed in __________",
+            "options": [
+                "Double quotes",
+                "Triple slash",
+                "Single slash",
+                "Double slash"
+            ],
+            "correct_answer": "Double quotes"
+        },
+        {
+            "text": "What is the operator (%) called?",
+            "options": [
+                "Percent",
+                "Modulo",
+                "Div",
+                "Exponentiation"
+            ],
+            "correct_answer": "Modulo"
+        },
+        {
+            "text": "Evaluate (3!= 2)",
+            "options": [
+                "True",
+                "False",
+                "Yes",
+                "No"
+            ],
+            "correct_answer": "True"
+        },
+        {
+            "text": "Evaluate (a*b >= c); If a=2, b=3 and c=6 ",
+            "options": [
+                "True",
+                "False",
+                "Yes",
+                "No"
+            ],
+            "correct_answer": "True"
+        },
+        {
+            "text": "Evaluate 7==5+2 ? 4 : 3",
+            "options": [
+                "7",
+                "5",
+                "3",
+                "4"
+            ],
+            "correct_answer": "4"
+        },
+        {
+            "text": "Evaluate abs(­8.76)",
+            "options": [
+                "8.8",
+                "8.76",
+                "8.77",
+                "­8.76"
+            ],
+            "correct_answer": "8.76"
+        },
+        {
+            "text": "Evaluate (!((14/3) <= 4)) && (25 > (6*5))",
+            "options": [
+                "True",
+                "False",
+                "Yes",
+                "84"
+            ],
+            "correct_answer": "False"
+        },
+        {
+            "text": "Evaluate (2 % 3)",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "0"
+            ],
+            "correct_answer": "2"
+        },
+        {
+            "text": "What does (\\n) represent in C++?",
+            "options": [
+                "Old line",
+                "Back space",
+                "New line",
+                "Tab"
+            ],
+            "correct_answer": "New line"
+        },
+        {
+            "text": "Give the output of the statements below. int x = 10000; cout << left << setw(10) << setfill(@) << x << endl;",
+            "options": [
+                "10000@@@@@",
+                "@@@@@10000",
+                "10000",
+                "@@@@@"
+            ],
+            "correct_answer": "10000@@@@@"
+        }
+    ]
+}

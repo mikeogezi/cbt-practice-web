@@ -1,12 +1,12 @@
 {
     "questions" : [
         {
-           "text":  "Who invented C++?",
+           "text":  "Who invented Python?",
             "options": [
                 "Ronaldo and Messi",
                 "Haskell",
                 "Lionel and Ritchie",
-                "Bjourne Strousup",
+                "Von Rossum",
                 "Alan Turing"
             ],
             "correct_answer": "Bjourne Strousup"
