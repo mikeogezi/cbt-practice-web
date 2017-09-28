@@ -348,7 +348,7 @@ function generateCard (num) {
         '<p id="question_number">' + qNum + '</p>' +
         '<span class="card-title" id="question_text">' + questions[num].text + '</span>' +
         '</div>' +
-        '<div class="card-action">' +
+        '<div class="card-action question_opts">' +
         generateOptions(questions[num]) +
         '</div>' +
         '</div>'

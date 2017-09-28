@@ -25,8 +25,15 @@ span.card-title#question_text {
     padding-bottom: 5px;
 }
 
-.card #question_text {
+.card #question_text, .card .question_opts {
     word-wrap: break-word;
+    overflow-wrap: break-word;
+    -ms-word-break: break-word;
+    word-break: break-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
 }
 
 footer.transparent {
