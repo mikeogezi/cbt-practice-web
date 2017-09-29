@@ -21,7 +21,7 @@ body {
 }
 
 body {
-    background-image: url(../images/bg.png) !important;
+    background-image: url(../images/bg.svg) !important;
 }
 
 body > .container {
