@@ -11,6 +11,7 @@ let bodyParser = require('body-parser')
 let favicon = require('serve-favicon')
 let multer = require('multer')
 let ms = require('ms')
+let compression = require('compression')
 
 let routes = require('./app/routes')
 
@@ -33,7 +34,10 @@ app.locals.designerPersonTwoSite = '#'
 app.locals.designerPersonThree = 'Michael Ogezi'
 app.locals.designerPersonThreeSite = 'http://makerloom-web.herokuapp.com'
 
-app.use(express.static(path.join(__dirname + '/public')))
+app.use(compression())
+app.use(express.static(path.join(__dirname + '/public'), {
+    maxAge: ms('365 days')
+}))
 app.use(bodyParser.json())
 app.use(favicon(path.join(__dirname, '/public/images/logo.ico')))
 app.use(stylus.middleware({
