@@ -1,20 +1,44 @@
-@font-face {
+/*@font-face {
     font-family: 'Wellfleet';
     src: url(../fonts/Wellfleet-Regular.ttf);
-}
+}*/
 
 @font-face {
     font-family: 'Lato-Regular';
-    src: url(../fonts/Lato-Regular.ttf);
+    src: url(../fonts/Lato-Regular.woff2);
 }
-
+/*
 @font-face {
     font-family: 'Lato-Light';
     src: url(../fonts/Lato-Light.ttf);
-}
+}*/
 
 footer p {
     font-size: 18px;
+}
+
+#question_number {
+    font-weight: bold !important;
+}
+
+:not(.correction) .card-action.question_opts p :not(.wrong)[type="checkbox"]:checked + label:before {
+    border-right: 2px solid #2196F3 !important;
+    border-bottom: 2px solid #2196F3 !important;
+}
+
+.correction .card-action.question_opts p :not(.wrong)[type="checkbox"]:checked + label:before {
+    border-right: 2px solid #009688 !important;
+    border-bottom: 2px solid #009688 !important;
+}
+
+.card-action.question_opts p .wrong[type="checkbox"].filled-in:checked + label:before {
+    border-right: 2px solid #F44336 !important;
+    border-bottom: 2px solid #F44336 !important;
+}
+
+.card-action.question_opts p .wrong[type="checkbox"].filled-in:checked + label:after {
+    border: 2px solid #F44336 !important;
+    background-color: #F44336 !important;
 }
 
 span.card-title#question_text {
@@ -40,6 +64,11 @@ footer.transparent {
     margin-top: -30px;
     background-color: rgba(0, 0, 0, 0) !important;
 }
+
+/*a.new_test, a.logout, button.correction {
+    width: 100% !important;
+    background-color: pink !important;
+}*/
 
 form a.btn-large, .row .col.s6 button.btn-large {
     width: 100%;

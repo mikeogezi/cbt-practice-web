@@ -36,7 +36,7 @@ app.locals.designerPersonThreeSite = 'http://makerloom-web.herokuapp.com'
 
 app.use(compression())
 app.use(express.static(path.join(__dirname + '/public'), {
-    maxAge: ms('365 days')
+    maxAge: process.env.NODE_ENV == 'production' ? ms('365 days') : ms('0')
 }))
 app.use(bodyParser.json())
 app.use(favicon(path.join(__dirname, '/public/images/logo.ico')))

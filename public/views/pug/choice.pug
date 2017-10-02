@@ -1,12 +1,5 @@
 html
-  head
-    title #{title}
-    link(rel='stylesheet', href='/css/materialize.css')
-    link(rel='stylesheet', href='/css/style.css')
-    meta(charset='UTF-8', name='viewport', content='width=device-width, initial-scale=1')
-    script(type='text/javascript', src='/js/jquery.js')
-    script(type='text/javascript', src='/js/materialize.js')
-    script(type='text/javascript', src='/js/app.js')
+  include head
   body.form
     .container
       .row
@@ -22,5 +15,5 @@ html
                         i.material-icons.right mode_edit
             .card
                 .card-image
-                    img.responsive-image(src='/images/alfred.jpg', height='50%')
+                    img(src='/images/alfred.jpg', height='50%')
       include ack

@@ -132,10 +132,6 @@ function renderQuestion (num) {
     var optCnt = question.options.length
     var optIds = []
 
-    $(questionNumber).text(num + ' / 50')
-    
-    $(questionText).text(question.text)
-
     var optCnt = question.options.length
     var optIds = []
     for (var i = 1; i <= optCnt; ++i) {
@@ -147,7 +143,7 @@ function renderQuestion (num) {
         qSel.parent().hide()
     }
 
-    $(questionNumber).text(num + ' /' + questions.length)
+    $(questionNumber).text(num + ' / ' + questions.length)
     
     $(questionText).text(question.text)
 
@@ -327,12 +323,16 @@ function renderReportPage () {
     $('#grade').text(grade)
 }
 
-var opt_id = 5;
+var opt_id = MAX_OPTS;
 function generateOptions (question) {
     options = ''
     for (var i = 0; i < question.options.length; ++i) {
         if (question.options[i] == question.correct_answer) {
             options += '<p><input type="checkbox" checked="checked" id="option_' + (++opt_id) + '"/><label for="option_' + opt_id + '">' + question.options[i] + '</label></p>'
+            continue;
+        }
+        if (question.options[i] == question.chosen_option) {
+            options += '<p><input class="filled-in wrong" type="checkbox" checked="checked" id="option_' + (++opt_id) + '"/><label for="option_' + opt_id + '">' + question.options[i] + '</label></p>'
             continue;
         }
         options += '<p><input disabled="disabled" type="checkbox" id="option_' + (++opt_id) + '"/><label for="option_' + opt_id + '">' + question.options[i] + '</label></p>'
@@ -359,7 +359,7 @@ function renderCorrectionPage () {
     $('#report_section').hide()
     $('#correction_section').show()
     $('#question_section').hide()
-    $('#all_questions').html('')
+    $('#all_questions.correction').html('')
     for (var i in questions) {
         $('#all_questions').append(generateCard(i))
     }
