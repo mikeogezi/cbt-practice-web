@@ -3,16 +3,6 @@
     src: url(../fonts/Lato-Regular.woff2);
 }
 
-/*.sponsor_image {
-    background-image: url(/images/alfred@2x.jpg);
-}
-
-.sponsor_image {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}*/
-
 .sponsor_image {
     display: block;
     max-width: 100%;
