@@ -1,17 +1,25 @@
-/*@font-face {
-    font-family: 'Wellfleet';
-    src: url(../fonts/Wellfleet-Regular.ttf);
-}*/
-
 @font-face {
     font-family: 'Lato-Regular';
     src: url(../fonts/Lato-Regular.woff2);
 }
-/*
-@font-face {
-    font-family: 'Lato-Light';
-    src: url(../fonts/Lato-Light.ttf);
+
+/*.sponsor_image {
+    background-image: url(/images/alfred@2x.jpg);
+}
+
+.sponsor_image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }*/
+
+.sponsor_image {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
 
 footer p {
     font-size: 18px;

@@ -39,7 +39,7 @@ app.use(express.static(path.join(__dirname + '/public'), {
     maxAge: process.env.NODE_ENV == 'production' ? ms('365 days') : ms('0')
 }))
 app.use(bodyParser.json())
-app.use(favicon(path.join(__dirname, '/public/images/logo.ico')))
+app.use(favicon(path.join(__dirname, '/public/images/icon.ico')))
 app.use(stylus.middleware({
     src: path.join(__dirname, '/public'),
     compile: compile
