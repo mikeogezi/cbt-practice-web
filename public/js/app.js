@@ -173,6 +173,9 @@ function getQuestions () {
     var p = window.location.pathname
     var isCS101 = p.endsWith('/cs101') || p.startsWith('/cs101')
     var isCS201 = p.endsWith('/cs201') || p.startsWith('/cs201')
+    var isGST103 = p.endsWith('/gst103') || p.startsWith('/gst103')
+    var isGST104 = p.endsWith('/gst104') || p.startsWith('/gst104')
+    var isGST223 = p.endsWith('/gst223') || p.startsWith('/gst223')
 
     if (isCS101) {
         reqStr += '/cs101'
@@ -181,6 +184,18 @@ function getQuestions () {
     else if (isCS201) {
         reqStr += '/cs201'
         console.log('getQuestions', 'cs201', reqStr)
+    }
+    else if (isGST103) {
+        reqStr += '/gst103'
+        console.log('getQuestions', 'gst103', reqStr)
+    }
+    else if (isGST104) {
+        reqStr += '/gst104'
+        console.log('getQuestions', 'gst104', reqStr)
+    }
+    else if (isGST223) {
+        reqStr += '/gst223'
+        console.log('getQuestions', 'gst223', reqStr)
     }
 
     $.getJSON(reqStr, function (data) {

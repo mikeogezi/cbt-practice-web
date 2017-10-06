@@ -5,8 +5,12 @@ const QUESTION_COUNT = 50
 let _ = require('underscore')
 let fs = require('fs')
 let path = require('path')
-let questions101 = require('../json/questions_cs101')
-let questions201 = require('../json/questions_cs201')
+
+let questionsCS101 = require('../json/questions_cs101')
+let questionsCS201 = require('../json/questions_cs201')
+let questionsGST103 = require('../json/questions_gst103')
+let questionsGST104 = require('../json/questions_gst104')
+let questionsGST223 = require('../json/questions_gst223')
 
 let index = (req, res, next) => {
     res.render('choice', {
@@ -33,6 +37,7 @@ let isValid = (pin) => {
     }
     return false
 }
+
 let loginPost = {
     cs101: (req, res, next) => {
         if (isValid(req.query.pin)) {
@@ -45,6 +50,24 @@ let loginPost = {
             return res.redirect('/quiz/cs201')
         }
         return res.redirect('/login/cs201')
+    },
+    gst103: (req, res, next) => {
+        if (isValid(req.query.pin)) {
+            return res.redirect('/quiz/gst103')
+        }
+        return res.redirect('/login/gst103')
+    },
+    gst104: (req, res, next) => {
+        if (isValid(req.query.pin)) {
+            return res.redirect('/quiz/gst104')
+        }
+        return res.redirect('/login/gst104')
+    },
+    gst223: (req, res, next) => {
+        if (isValid(req.query.pin)) {
+            return res.redirect('/quiz/gst223')
+        }
+        return res.redirect('/login/gst223')
     }
 }
 
@@ -60,6 +83,24 @@ let login = {
             choice: 'cs201',
             title: 'Log In - Courtesy of Alfred Lasisi'
         })
+    },
+    gst103: (req, res, next) => {
+        res.render('login', {
+            choice: 'gst103',
+            title: 'Log In - Courtesy of Alfred Lasisi'
+        })
+    },
+    gst104: (req, res, next) => {
+        res.render('login', {
+            choice: 'gst104',
+            title: 'Log In - Courtesy of Alfred Lasisi'
+        })
+    },
+    gst223: (req, res, next) => {
+        res.render('login', {
+            choice: 'gst223',
+            title: 'Log In - Courtesy of Alfred Lasisi'
+        })
     }
 }
 
@@ -67,41 +108,76 @@ let logout = (req, res, next) => {
     res.redirect('/')
 }
 
+let _questions = (questionsObj) => {
+    let q = {
+        questions: []
+    }
+    q.questions = _.sample(questionsObj.questions, QUESTION_COUNT)
+    return q
+}
+
 let getQuestions = {
     cs101: (req, res, next) => {
-        let q = {
-            questions: []
-        }
-        q.questions = _.sample(questions101.questions, QUESTION_COUNT)
-        res.json(q)
+        res.json(_questions(questionsCS101))
     },
     cs201: (req, res, next) => {
-        let q = {
-            questions: []
-        }
-        q.questions = _.sample(questions201.questions, QUESTION_COUNT)
-        res.json(q)
+        res.json(_questions(questionsCS201))
+    },
+    gst103: (req, res, next) => {
+        res.json(_questions(questionsGST103))
+    },
+    gst104: (req, res, next) => {
+        res.json(_questions(questionsGST104))
+    },
+    gst223: (req, res, next) => {
+        res.json(_questions(questionsGST223))
+    }
+}
+
+let _quiz = (choice) => {
+    return {
+        choice: 'cs101',
+        title: 'Exam - Courtesy of Alfred Lasisi'
     }
 }
 
 let quiz = {
     cs101: (req, res, next) => {
-        res.render('quiz', {
-            choice: 'cs101',
-            title: 'Exam - Courtesy of Alfred Lasisi'
-        })
+        res.render('quiz', _quiz('cs101'))
     },
     cs201: (req, res, next) => {
-        res.render('quiz', {
-            choice: 'cs201',
-            title: 'Exam - Courtesy of Alfred Lasisi'
-        })
+        res.render('quiz', _quiz('cs201'))
+    },
+    gst103: (req, res, next) => {
+        res.render('quiz', _quiz('gst103'))
+    },
+    gst104: (req, res, next) => {
+        res.render('quiz', _quiz('gst104'))
+    },
+    gst223: (req, res, next) => {
+        res.render('quiz', _quiz('gst223'))
     }
 }
 
+let quizRes = (req, res, next) => {
+    return quiz[req.params.choice](req, res, next)
+}
+
+let getQuestionsRes = (req, res, next) => {
+    return getQuestions[req.params.choice](req, res, next)
+}
+
+let loginRes = (req, res, next) => {
+    return login[req.params.choice](req, res, next)
+}
+
+let loginPostRes = (req, res, next) => {
+    return loginPost[req.params.choice](req, res, next)
+}
+
 exports.index = index
-exports.login = login
-exports.loginPost = loginPost
+exports.loginRes = loginRes
+exports.loginPostRes = loginPostRes
 exports.logout = logout
-exports.getQuestions = getQuestions
-exports.quiz = quiz
+exports.getQuestionsRes = getQuestionsRes
+exports.quizRes = quizRes

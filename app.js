@@ -48,27 +48,28 @@ app.use(bodyParser.urlencoded({
     extended: false
 }))
 
-app.locals.rootUrl = 'http://localhost:3000/'
+// app.locals.rootUrl = 'http://localhost:3000/'
 
 // home page
 app.get('/', routes.index)
+
 // quiz page
-app.get('/quiz/cs101', routes.quiz.cs101)
-app.get('/quiz/cs201', routes.quiz.cs201)
+app.get('/quiz/:choice', routes.quizRes)
+
 // login page
-app.get('/login/cs101', routes.login.cs101)
-app.get('/login/cs201', routes.login.cs201)
+app.get('/login/:choice', routes.loginRes)
+
 // login
-app.get('/loginPost/cs101', routes.loginPost.cs101)
-app.get('/loginPost/cs201', routes.loginPost.cs201)
+app.get('/loginPost/:choice', routes.loginPostRes)
+
 // log out
 app.get('/logout', routes.logout)
+
 // get test questions
-app.get('/getQuestions/cs101', routes.getQuestions.cs101)
-app.get('/getQuestions/cs201', routes.getQuestions.cs201)
+app.get('/getQuestions/:choice', routes.getQuestionsRes)
 
 app.locals.pretty = true
 
 app.listen(app.get('port'), () => {
-    console.log(`Listening or port ${app.get('port')}`)
+    console.log(`Listening or port ${app.get('port')} in ${process.env.NODE_ENV} mode`)
 })

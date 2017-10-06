@@ -1,0 +1,24 @@
+{
+    "questions": [
+        {
+            "text" : "Taboos are part of the.................. of society.",
+            "options" : [
+                "Norms",
+                "Mores",
+                "Values",
+                "Folkways"
+            ],
+            "correct_answer": "Mores"
+        },
+        {
+            "text" : "The late Dr. Ladi Kwali was renowned for the art of........................",
+            "options" : [
+                "Leather weaving",
+                "Grass making",
+                "Pottery making",
+                "Calabash making"
+            ],
+            "correct_answer": "Pottery Making"
+        }
+    ]
+}
