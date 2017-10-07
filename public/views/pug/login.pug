@@ -7,8 +7,10 @@ html
           form(action='/loginPost/' + choice, method='get')
             .row
                 .input-field.col.s12
-                    input#first-name(placeholder='Enter Your Pin', name='pin', type='text', class='validate')
-                    label(for='pin') PIN
+                    input#first-name(placeholder='Enter Your Pin', value="LasisiForNassa", name='pin', type='text', class='validate')
+                    label(for='pin') 
+                        | PIN&nbsp;
+                        b (LasisiForNassa)
 
             .row
                 .col.s12
