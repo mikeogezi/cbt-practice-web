@@ -6,6 +6,8 @@ function listenCheckbox () {
     console.log('listenCheckbox')
 
     $('#question_section input[type=checkbox]').click(function () {
+        var question = questions[questionNum - 1]
+        var optCnt = question.options.length
         var chks = $('#question_section input[type=checkbox]');
         for (var chk of chks) {
             if (chk != this) {
@@ -13,7 +15,6 @@ function listenCheckbox () {
             }
         }
 
-        var question = questions[questionNum - 1]
         question.chosen_option = $(this).parent().find('label').text()
         console.log($(this).parent().find('label').text())
         var noCheck = true
@@ -132,8 +133,6 @@ function renderQuestion (num) {
     var optCnt = question.options.length
     var optIds = []
 
-    var optCnt = question.options.length
-    var optIds = []
     for (var i = 1; i <= optCnt; ++i) {
         optIds.push('option_' + i)
     }
@@ -290,7 +289,7 @@ function countCorrect () {
 }
 
 function calculateScore () {
-    return countCorrect() * 2
+    return ((countCorrect() / questions.length) * 100).toFixed(2)
 }
 
 function countAnswered () {

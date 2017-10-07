@@ -1,8 +1,8 @@
 {
     "questions": [
         {
-            "text" : "Taboos are part of the.................. of society.",
-            "options" : [
+            "text": "Taboos are part of the.................. of society.",
+            "options": [
                 "Norms",
                 "Mores",
                 "Values",
@@ -11,14 +11,288 @@
             "correct_answer": "Mores"
         },
         {
-            "text" : "The late Dr. Ladi Kwali was renowned for the art of........................",
-            "options" : [
-                "Leather weaving",
-                "Grass making",
+            "text": "The late Dr. Ladi Kwali was renowned for the art of........................",
+            "options": [
+                "Leather making",
+                "Grass weaving",
                 "Pottery making",
                 "Calabash making"
             ],
-            "correct_answer": "Pottery Making"
+            "correct_answer": "Pottery making"
+        },
+        {
+            "text": "Culture is ..................................derived.",
+            "options": [
+                "Biologically",
+                "Culturally",
+                "Psychological",
+                "Socially"
+            ],
+            "correct_answer": "Socially"
+        },
+        {
+            "text": "Sanctions within a society ensures.............. to laid down rules and regulations.",
+            "options": [
+                "Conformity",
+                "Challenge",
+                "Measures",
+                "Threats"
+            ],
+            "correct_answer": "Threats"
+        },
+        {
+            "text": "Sanctions against violation of........................ are often subtle and can be in forms of scorn and avoidance.",
+            "options": [
+                "Values",
+                "Mores",
+                "Knowledge",
+                "Norms"
+            ],
+            "correct_answer": "Norms"
+        },
+        {
+            "text": "Most rural societies of the world are..................... societies",
+            "options": [
+                "Folk",
+                "Urban",
+                "Rural",
+                "Plural"
+            ],
+            "correct_answer": "Folk"
+        },
+        {
+            "text": "Social control is anchored on the norms and values of society",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correct_answer": "True"
+        },
+        {
+            "text": "All these except one can help to maintain law and social order.",
+            "options": [
+                "Norms",
+                "Sanctions",
+                "Value",
+                "Social control"
+            ],
+            "correct_answer": "Value"
+        },
+        {
+            "text": "Peers describes people of same..................",
+            "options": [
+                "Class",
+                "Race",
+                "Age",
+                "Ethnicity"
+            ],
+            "correct_answer": "Age"
+        },
+        {
+            "text": "A widely held belief about what is important to a community's identity or well-being is referred to as...............",
+            "options": [
+                "Sensitivity",
+                "Values",
+                "Commonality",
+                "Universality"
+            ],
+            "correct_answer": "Values"
+        },
+        {
+            "text": "Initially the Ofala festival was a celebration of....",
+            "options": [
+                "Birth",
+                "Marriage",
+                "Bravery",
+                "Fishing"
+            ],
+            "correct_answer": "Bravery"
+        },
+        {
+            "text": "Ivory cravings are commonly found in all these except...........................",
+            "options": [
+                "Offices",
+                "Markets",
+                "Homes",
+                "Ancestral altars"
+            ],
+            "correct_answer": "Markets"
+        },
+        {
+            "text": "An individual must belong to every group within his/her society to properly fit-in.",
+            "options": [
+                "False",
+                "True"
+            ],
+            "correct_answer": "False"
+        },
+        {
+            "text": "Culture drift is a broad but gradual change in values and behaviors of a people.",
+            "options": [
+                "Rapid",
+                "Fast",
+                "Gradual",
+                "Low"
+            ],
+            "correct_answer": "Gradual"
+        },
+        {
+            "text": "The popular Akwete cloth is produced in ................state.",
+            "options": [
+                "Abia",
+                "Kano",
+                "Lagos",
+                "Benue"
+            ],
+            "correct_answer": "Abia"
+        },
+        {
+            "text": "Nigeria ranks.................. in world population.",
+            "options": [
+                "7th",
+                "5th",
+                "6th",
+                "4th"
+            ],
+            "correct_answer": "7th"
+        },
+        {
+            "text": "Subcultures describes behavior patterns.............. to that of the dominant groups within the society.",
+            "options": [
+                "Invincible",
+                "Same",
+                "Neutral",
+                "Different"
+            ],
+            "correct_answer": "Different"
+        },
+        {
+            "text": "...................is a society made up of different groups.",
+            "options": [
+                "Peer society",
+                "Singular soceity",
+                "Neutral soceity",
+                "Plural society"
+            ],
+            "correct_answer": "Plural society"
+        },
+        {
+            "text": "Wood carvers are found in most part of.......................Nigeria.",
+            "options": [
+                "Eastern",
+                "Northern",
+                "Southern",
+                "Western"
+            ],
+            "correct_answer": "Southern"
+        },
+        {
+            "text": "The best making pottery center in Nigeria is in......................",
+            "options": [
+                "Suleja",
+                "Markudi",
+                "Lafia",
+                "Jos"
+            ],
+            "correct_answer": "Suleja"
+        },
+        {
+            "text": "Culture is .................................. derived.",
+            "options": [
+                "Socially",
+                "Biologically",
+                "Culturally",
+                "Psychological"
+            ],
+            "correct_answer": "Socially"
+        },
+        {
+            "text": "Which is the most suitable Cognitive culture has to do with a process........................... of",
+            "options": [
+                "Sharing Tools",
+                "Changing Culture",
+                "Adjusting Culture",
+                "acquiring knowledge"
+            ],
+            "correct_answer": "acquiring knowledge"
+        },
+        {
+            "text": "Naraguta in Jos is renowned for the art of ........................",
+            "options": [
+                "Leather making",
+                "Ivory craving",
+                "Clothe weaving",
+                "Pottery making"
+            ],
+            "correct_answer": "Leather making"
+        },
+        {
+            "text": "...................is an annual ritual festival known amongst the Yoruba.",
+            "options": [
+                "Osun",
+                "Ofala",
+                "Argungun",
+                "Sharo"
+            ],
+            "correct_answer": "Osun"
+        },
+        {
+            "text": "Material culture refers to the ............................... traits of a people.",
+            "options": [
+                "Abstract",
+                "Normative",
+                "Non-physical",
+                "Physical"
+            ],
+            "correct_answer": "Physical"
+        },
+        {
+            "text": "Nigeria has over ...................ethnic group.",
+            "options": [
+                "150",
+                "450",
+                "250",
+                "350"
+            ],
+            "correct_answer": "250"
+        },
+        {
+            "text": "Social Anthropologists study.",
+            "options": [
+                "Culture & Biology",
+                "Culture & Environment",
+                "Culture & Religion",
+                "Culture & Societies"
+            ],
+            "correct_answer": "Culture & Societies"
+        },
+        {
+            "text": "The custom of the yorubas whereby a son postrates to greet his parent or an elder can best be described as.......................",
+            "options": [
+                "Norm",
+                "Value",
+                "Mores",
+                "Folklore"
+            ],
+            "correct_answer": "Norm"
+        },
+        {
+            "text": "The way people use their bodies to communicate with others withina society is known as ...........",
+            "options": [
+                "Gesture",
+                "Dance",
+                "Language",
+                "Rhythm"
+            ],
+            "correct_answer": "Gesture"
+        },
+        {
+            "text": "Cultural relativism is a belief that some cultures are more superior to others.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correct_answer": "False"
         }
     ]
 }
