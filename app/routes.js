@@ -14,7 +14,7 @@ let questionsGST223 = require('../json/questions_gst223')
 
 let index = (req, res, next) => {
     res.render('choice', {
-        title: 'Mock CBT Exam - Courtesy of Alfred Lasisi'
+        title: 'Mock CBT Exam'
     })
 }
 
@@ -75,31 +75,31 @@ let login = {
     cs101: (req, res, next) => {
         res.render('login', {
             choice: 'cs101',
-            title: 'Log In - Courtesy of Alfred Lasisi'
+            title: 'Log In'
         })
     },
     cs201: (req, res, next) => {
         res.render('login', {
             choice: 'cs201',
-            title: 'Log In - Courtesy of Alfred Lasisi'
+            title:  'Log In'
         })
     },
     gst103: (req, res, next) => {
         res.render('login', {
             choice: 'gst103',
-            title: 'Log In - Courtesy of Alfred Lasisi'
+            title: 'Log In'
         })
     },
     gst104: (req, res, next) => {
         res.render('login', {
             choice: 'gst104',
-            title: 'Log In - Courtesy of Alfred Lasisi'
+            title: 'Log In'
         })
     },
     gst223: (req, res, next) => {
         res.render('login', {
             choice: 'gst223',
-            title: 'Log In - Courtesy of Alfred Lasisi'
+            title: 'Log In'
         })
     }
 }
@@ -137,7 +137,7 @@ let getQuestions = {
 let _quiz = (choice) => {
     return {
         choice: 'cs101',
-        title: 'Exam - Courtesy of Alfred Lasisi'
+        title: 'Exam'
     }
 }
 
